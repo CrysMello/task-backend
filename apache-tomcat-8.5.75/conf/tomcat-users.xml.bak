@@ -19,7 +19,7 @@
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
               version="1.0">
-<role rolename="admin-gui"/>			  
+			  
 <user username="admin" password="1234" roles="manager-gui,manager-script"/>
 <!--
   By default, no user is included in the "manager-gui" role required
