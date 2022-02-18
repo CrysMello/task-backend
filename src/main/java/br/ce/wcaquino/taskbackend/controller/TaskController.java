@@ -19,6 +19,7 @@ import br.ce.wcaquino.taskbackend.utils.ValidationException;
 @RestController
 @RequestMapping(value ="/todo")
 public class TaskController {
+	
 
 	@Autowired
 	private TaskRepo todoRepo;
@@ -43,3 +44,5 @@ public class TaskController {
 		return new ResponseEntity<Task>(saved, HttpStatus.CREATED);
 	}
 }
+
+
